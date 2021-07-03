@@ -5,8 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, td{
+            border:1px solid #333;
+        }
+        thead, tfoot{
+            background-color: #333;
+            color:#fff;
+        }
+    </style>
 </head>
 <body>
+
     <h1>Mon titre</h1>
     <p>
         Lorem ipsum dolor sit amet <b> adipisicing elit.</b> Vitae architecto, eligendi deleniti fuga, quos nisi dolor dignissimos excepturi alias ipsam quod iusto iste, nam consequuntur repellendus distinctio inventore repudiandae aperiam?
@@ -26,11 +36,49 @@
         <li>Second élément</li> 
     </ul>
 
+
     <p>
         Lorem ipsum dolor sit amet  adipisicing elit. Vitae architecto, eligendi deleniti fuga, quos nisi dolor dignissimos excepturi alias ipsam quod iusto iste, nam consequuntur repellendus distinctio inventore repudiandae aperiam?
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis adipisci sunt consequuntur provident dolore excepturi perspiciatis, ullam rem libero rerum labore nisi fugiat corporis numquam iste alias tempora officia quo!     
     </p>
+
+    <table>
+        <thead>
+            <tr>
+                <td>Plat</td>
+                <td>Prix</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>St eak Frite</td>
+                <td>5$</td>
+            </tr>
+            <tr>
+                <td>Steak</td>
+                <td>3$</td>
+            </tr>
+            <tr>
+                <td>Frite</td>
+                <td>2$</td>
+            </tr>
+            <tr>
+                <td colspan="2">Dessert</td>
+            </tr>
+            <tr>
+                <td>Mousse au chocolat</td>
+                <td>3$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"><em>Tous le prix sont indiqué TTC</em></td>
+            </tr>
+        </tfoot>
+    </table>
+     
     <hr>
+    <iframe src="lien.html" frameborder="0" width="100%" height="300px"></iframe>
     <h2>Second titre</h2>
     <p>
         <p>
